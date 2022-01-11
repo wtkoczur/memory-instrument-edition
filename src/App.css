@@ -1,0 +1,55 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+
+button {
+  background: none;
+  border: 2px solid #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+  margin-right: 40px;
+}
+
+p {
+  margin: 5px 20px;
+}
+button:hover {
+  background: #2c7ec2;
+  color: #fff;
+}
+
+.card-grid {
+  margin-top: 40px;
+  margin-left: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.top-bar {
+  display: inline-flex;
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+  button {
+    font-size: 20px;
+    margin: 0px 20px;
+  }
+
+  p {
+    margin: 0px 5px
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
